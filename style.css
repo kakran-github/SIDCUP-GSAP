@@ -1,6 +1,18 @@
 @font-face {
     font-family:montserrat ;
-    src: url(Montserrat/);
+    src: url(Font_and_Visual/Montserrat-Bold.woff2);
+}
+@font-face {
+    font-family:montserrat-bold ;
+    src: url(Font_and_Visual/Montserrat-ExtraBold.woff2);
+}
+@font-face {
+    font-family:montserrat-regular ;
+    src: url(Font_and_Visual/Montserrat-Regular.woff2);
+}
+@font-face {
+    font-family:gilroy ;
+    src: url(Font_and_Visual/Gilroy-Black.woff2);
 }
 *{
     margin: 0;
@@ -76,6 +88,7 @@ video{
     font-size: 120px;
     font-weight: 900;
     position: relative;
+    font-family: 'montserrat-bold';
 }
 #page1 h1::before{
     content: "EAT. DRINK. PLAY.";/*before aagya content uske piche css se likh diya aur postion absolute deke upar legye*/
@@ -96,6 +109,7 @@ video{
     font-size: 18px;
     font-weight: 500;
     width: 40%;
+    font-family: 'montserrat-regular';
 }
 #page1 #arrow {
     height: 250px;
@@ -152,7 +166,7 @@ video{
     color: black;
     font-size: 120px;
     font-weight: 900;
-    font-family: gilroy;
+    font-family: 'gilroy';
     margin-right: 10px;
     -webkit-text-stroke: 3px white;
 }
@@ -362,7 +376,7 @@ video{
     font-size: 94px;
     top: -45px;
     color: transparent;
-    font-family: gilroy;
+    font-family: 'gilroy';
     -webkit-text-stroke:1px white;
     font-weight: 900;
     /* z-index: 2; */
